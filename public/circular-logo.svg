@@ -1,0 +1,34 @@
+<svg width="290" height="290" viewBox="0 0 290 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_405_2)">
+<rect width="290" height="290" fill="url(#paint0_linear_405_2)"/>
+<circle cx="100" cy="100" r="100" transform="matrix(1.19249e-08 1 1 -1.19249e-08 45 45)" fill="black" fill-opacity="0.44"/>
+<circle cx="100" cy="100" r="109" transform="matrix(1.19249e-08 1 1 -1.19249e-08 45 45)" stroke="black" stroke-opacity="0.23" stroke-width="18"/>
+<g filter="url(#filter0_dd_405_2)">
+<path d="M109.35 197V95.25H118.6V112.825H122.855L117.305 122.26C117.305 113.503 119.957 106.535 125.26 101.355C130.687 96.0517 137.902 93.4 146.905 93.4C156.895 93.4 164.912 96.6067 170.955 103.02C176.998 109.433 180.02 118.128 180.02 129.105V197H170.77V130.4C170.77 121.273 168.427 114.182 163.74 109.125C159.177 103.945 152.948 101.355 145.055 101.355C136.915 101.355 130.44 103.945 125.63 109.125C120.943 114.305 118.6 121.397 118.6 130.4V197H109.35Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_dd_405_2" x="99.35" y="88.4" width="90.67" height="123.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_405_2"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_405_2" result="effect2_dropShadow_405_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_405_2" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_405_2" x1="102.789" y1="-35.1242" x2="413.705" y2="487.351" gradientUnits="userSpaceOnUse">
+<stop stop-color="#806BFF"/>
+<stop offset="1" stop-color="#090909"/>
+</linearGradient>
+<clipPath id="clip0_405_2">
+<rect width="290" height="290" rx="145" fill="white"/>
+</clipPath>
+</defs>
+</svg>

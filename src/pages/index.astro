@@ -1,15 +1,114 @@
 ---
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<html class="h-full w-full" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/circular-logo.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>neptune for TIDAL</title>
+  </head>
+  <body class="font-mono text-offwhite bg-dark h-90% w-full">
+    <div class="bg-#1b1a1b w-full h-12 flex items-center">
+      <div class="flex px-3 w-full justify-between">
+        <a href="/" class="flex items-center hover:underline">
+          <img src="./circular-logo.svg" width="32" />
+          <span class="pl-2 text-sm md:text-base">neptune</span>
+        </a>
+        <div class="flex items-center pr-1">
+          <a class="hover:underline" href="https://github.com/uwu/neptune"
+            >github</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="h-full flex justify-center">
+      <div class="md:pt-32">
+        <img
+          alt="neptune logo"
+          class="max-w-full h-auto px-4 pt-4 pb-2 md:p-5"
+          src="./banner.svg"
+        />
+        <h2 class="font-800 text-center text-lg md:text-3xl">
+          an experimental plugin & theme system for TIDAL
+        </h2>
+        <div class="grid place-items-center pt-2 md:pt-4">
+          <div class="flex gap-4 text-lg">
+            <a
+              class="btn rounded-xl bg-secondary px-4 py-2 md:w-32 text-center md:py-3.8 font-bold"
+              href="https://github.com/uwu/neptune-installer/releases/latest"
+              >install</a
+            >
+            <a
+              class="btn rounded-xl bg-[#222020] px-4 py-2 md:w-32 text-center md:py-3.8 font-bold"
+              href="https://github.com/uwu/neptune"
+              >code</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="uwunet-hover absolute bottom-0 w-full font-uwu">
+      <div class="uwunet-spacer w-full h-22"></div>
+      <div class="uwunet-banner bg-black translate-y-10 hidden px-2">
+        an <a class="bg-white text-black underline" href="https://uwu.network"
+          >uwu.network</a
+        > project
+      </div>
+    </div>
+  </body>
 </html>
+
+<style>
+  @keyframes moveUp {
+    from {
+      transform: translateY(10);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes moveDown {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(10);
+    }
+  }
+
+  body {
+    overflow: hidden
+  }
+
+  .uwunet-hover {
+    opacity: 0;
+  }
+
+  .uwunet-hover {
+    transition: opacity 0.1s;
+  }
+
+  .uwunet-hover:hover {
+    opacity: 1;
+  }
+
+  .uwunet-hover:not(:hover) > .uwunet-banner {
+    animation-name: moveDown;
+    animation-duration: 1s;
+    display: block;
+  }
+
+  .uwunet-hover:hover > .uwunet-banner {
+    animation-name: moveUp;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    display: block;
+  }
+
+  .btn:hover {
+    filter: brightness(1.2)
+  }
+</style>
